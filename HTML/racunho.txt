@@ -1,0 +1,16 @@
+<!DOCTYPE html>         <!-- usado para o navegador identificar o tipo de arquivo -->
+    <html lang="en">        <!-- bloco pricipal -->
+        <head>      <!-- cabeçalho do site, onde não contem conteudo, apenas url e abas -->
+            <meta charset="UTF-8">      <!-- define o uso dos caracteres especiais -->
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">      <!-- define o tamanho da tela -->
+            <title>Aula HTML</title>        <!-- define o titulo da aba-->
+        </head>
+        <body>      <!-- corpo da pagina onde aparecera todo o conteudo           -->
+
+            <h1> HTML, CSS e JS </h1>       <!-- imprime textos de diversos tamanhos-->
+            <!-- adiciona uma imagem na pagina -->
+            <img src="endereço da imagem aqui" alt="nome da imagem">
+            <!-- adiciona um campo de entrada na pagina -->
+            <input type="text" placeholder="Deixe um elogio...">
+        </body>
+    </html>
