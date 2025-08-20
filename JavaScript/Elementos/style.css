@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.quadrado{
+    height: 40px;
+    width: 300px;
+    font-size:xx-large;
+}
+
+.ok{
+    background-color: rgb(121, 240, 85);
+}
+
+.bad{
+    background-color: rgb(240, 67, 67);
+}
