@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.retangulo{
+    width: 500px;
+    height: 250px;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(184, 247, 252);
+}
+
+.titulo{
+    font-size: 50px;
+    color: rgb(67, 192, 186);
+    font-weight: bold;
+}
+
+
+.text-box{
+    height: 35px;
+    width: 250px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-color: rgb(255, 255, 255);
+    color: rgb(136, 136, 136);
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.botao{
+    width: 100px;
+    height: 35px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    background-color: rgb(110, 196, 191);
+    border: 0px;
+    font-size: 18px;
+    color: rgb(7, 121, 121);
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.item{
+    display: flex;
+    color: rgb(25, 100, 100);
+    margin: 30px;
+}
+
+.checkbox{
+    font-size: 16;
+    width: 25px; 
+    height: 25px;     
+    margin-right: 20px ;
+}
+
+
+
