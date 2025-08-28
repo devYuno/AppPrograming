@@ -17,7 +17,8 @@ function App() {
       <YellowSquare />
       <Square color='#66d381ff'/>
 
-      <input type="text" />
+      <input type="text" onChange={(e) => setTexto(e.target.value)} style={{height: 30, width: 400}} />
+      <h1>{texto}</h1>
     </>
   )
 }
