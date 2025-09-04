@@ -1,0 +1,42 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100vh;
+    height: 100vh;
+}
+
+.bloco {
+    width: 400px;
+    height: 300px;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+
+.blocotemp {
+    width: 400px;
+    height: 500px;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+
+.start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 20px;
+    font-size: 18px;
+}
+
+.time {
+    font-weight: 'bold';
+    font-size: 40;
+}
